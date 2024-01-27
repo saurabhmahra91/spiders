@@ -5,11 +5,12 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="spiders",
-    version="0.0.4",
+    version="0.0.5",
     description="Internet web scraper",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     packages=find_packages(),
-    url="https://github.com/saurabhmahra91/spiderstore.git",
+    url="https://github.com/saurabhmahra91/spiders.git",
     author="Saurabh Kumar Mahra",
     author_email="sourabhmahra91@gmail.com",
     license_files=("LICENSE.txt"),
