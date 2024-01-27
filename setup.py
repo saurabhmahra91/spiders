@@ -1,12 +1,14 @@
 from setuptools import find_packages, setup
 
+with open("README.md", "r", encoding="utf-8") as f:
+    long_description = f.read()
 
 setup(
-    name="spiderstore",
-    version="0.0.1",
+    name="spiders",
+    version="0.0.4",
     description="Internet web scraper",
-    package_dir={"": "spiderstore"},
-    packages=find_packages(where="spiderstore"),
+    long_description=long_description,
+    packages=find_packages(),
     url="https://github.com/saurabhmahra91/spiderstore.git",
     author="Saurabh Kumar Mahra",
     author_email="sourabhmahra91@gmail.com",
