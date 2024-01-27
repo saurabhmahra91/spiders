@@ -6,13 +6,13 @@ The spiderstore project is a Python library designed for web scrapers with the g
 
 You can install the library using pip
 ```
-$ python3 -m pip install spiderstore
+$ python3 -m pip install spiders
 ```
 
 ## Resources
 
 - [Documentation](https://spiderstore.readthedocs.io)
-- [Source Code](https://spiderstore.readthedocs.io)
+- [Source Code](https://github.com/saurabhmahra91/spiderstore.git)
 
 ## Contributing
 
